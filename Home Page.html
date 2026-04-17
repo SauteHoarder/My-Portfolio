@@ -9,52 +9,73 @@
       crossorigin="anonymous"
     />
 
-    <title>Home</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="navbar-container">
-        <div class="navbar-logo">
-          <a href="Home Page.html">Portfolio</a>
-        </div>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="Home Page.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="About Me.html" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="Projects.html" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="Contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+    <div class="intro-overlay" id="introOverlay">
+      <div class="intro-card">
+        <h3>Pleased To Meet You!</h3>
+        <h1></h1>
       </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
+    </div>
+    <div class="bg-custom page-wrapper">
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <a href="Home Page.html">Portfolio</a>
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="Home Page.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="About Me.html" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="Projects.html" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="Contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+      <main class="page-section main-content">
+        <section class="hero-grid">
           <div class="image-container-left">
             <img
-              src="Images/MePortfolio.jpg"
+              src="Images/canva1.png"
               alt="Image"
               class="img-fluid rounded"
             />
           </div>
-        </div>
-        <div class="col-md-6">
-          <!-- Content here -->
-          <h1></h1>
-        </div>
-      </div>
+          <div class="hero-text">
+            <h3>Let's get it to work!</h3>
+            <div class="code-snippet-container">
+              <pre class="code-snippet">
+                <code>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Portfolio&lt;/title&gt;
+  &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h1&gt;Hello, I'm Prince!&lt;/h1&gt;
+      &lt;p&gt; Accompany me on my journey through 
+          the world of web development!
+      &lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                </code>
+              </pre>
+          </div>
+        </section>
+      </main>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
